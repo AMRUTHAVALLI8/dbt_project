@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: BRONZE
+    schema: POS
+    tables:
+      - name: customer_pos
+
+models:
+  - name: transform_customer_pos
+    description: "Transformed POS data with clean structure"
+
