@@ -1,9 +1,0 @@
-name: customer_pos_transform
-version: '1.0'
-config-version: 2
-
-profile: default
-
-models:
-  example:                 # ← this matches the folder name under /models/
-    +materialized: table   # default for all models in this folder
